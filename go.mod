@@ -24,7 +24,7 @@ require (
 	github.com/swaggo/files v0.0.0-20190704085106-630677cd5c14
 	github.com/swaggo/gin-swagger v1.3.0
 	github.com/swaggo/swag v1.6.7
-	github.com/tencentcloud/tencentcloud-sdk-go v3.0.233+incompatible
+	github.com/tencentcloud/tencentcloud-sdk-go v1.0.805
 	github.com/urfave/cli/v2 v2.3.0
 	golang.org/x/crypto v0.12.0
 	golang.org/x/sync v0.1.0
@@ -214,10 +214,12 @@ replace (
 	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
 	github.com/docker/docker => github.com/moby/moby v20.10.0-rc2+incompatible
 	github.com/go-openapi/spec => github.com/go-openapi/spec v0.19.8
-	github.com/goodrain/rainbond => github.com/glyasai/rainbond v0.0.0-20210508110948-5d37bb0288f7
+	github.com/goodrain/rainbond => github.com/GLYASAI/rainbond v0.0.0-20210508110948-5d37bb0288f7
+	github.com/goodrain/rainbond-operator => github.com/yangsuiyun/rainbond-operator v0.0.0-20231128103958-4c5bb964389d
 	// github.com/goodrain/rainbond => /Users/abewang/Goodrain/workspaces/rainbond
 	github.com/googleapis/gnostic/OpenAPIv2 => github.com/googleapis/gnostic/openapiv2 v0.4.1
 	k8s.io/api => k8s.io/api v0.24.2
 	k8s.io/client-go => k8s.io/client-go v0.24.2
+
 	k8s.io/kubectl => k8s.io/kubectl v0.24.2
 )
